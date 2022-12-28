@@ -1,0 +1,21 @@
+{
+  "name": "Syhr/module-add-venmo-disable",
+  "version": "1.0.0",
+  "description": "Adds an option to disable the venmo button.",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-paypal": "101.0.*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Syhr\\AddVenmoDisable\\": ""
+    }
+  }
+}
